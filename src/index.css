@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+
+:global *,
+:global *:before,
+:global *:after {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+:global html
+{
+    font-size: 10px;
+    line-height: 1.2;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+:global body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    background-color: rgb(0, 23, 39);
+    font-color: rgb(255, 255, 255);
+    text-rendering: optimizeLegibility;
+    height: 100%;
+}
